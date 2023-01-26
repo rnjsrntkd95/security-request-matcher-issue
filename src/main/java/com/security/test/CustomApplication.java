@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 @SpringBootApplication(
         exclude = DataSourceAutoConfiguration.class // todo 현재 DB 를 안 붙여서 추가 필요
 )
-public class AtsBuilderApplication {
+public class CustomApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AtsBuilderApplication.class, args);
+        SpringApplication.run(CustomApplication.class, args);
     }
 
 }
